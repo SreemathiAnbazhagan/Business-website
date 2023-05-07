@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consultant</title>
+	<link rel="stylesheet" type="text/css" href="register.css">
+</head>
+<body>  
+
+	<div class="form">
+		<div class="title-div">
+			<h1>SAI TAX SOLUTIONS</h1>
+            <h2>Free Consultation</h2>
+			<p>Enter your details. Our experts will call you back right away!</p>
+			<p class="required">*Required</p>
+		</div>
+
+		<div class="name-div">
+			<div class="name">What is your name?<span class="required">*</span></div>
+			<div class="input-div"><input type="input" id="name" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="college-div">
+			<div class="name">Enter  your Business name.</div>
+			<div class="input-div"><input type="input" id="business" name="answer" placeholder="Your answer"></div>
+		</div>
+
+		<div class="gmail-div">
+			<div class="name">Enter  your email.<span class="required">*</span></div>
+			<div class="input-div"><input type="input" name="answer"id="email" placeholder="Your email"></div>
+		</div>
+
+		<div class="mobile-div">
+			<div class="name">Enter  your mobile no.</div>
+			<div class="input-div"><input type="input" name="answer" id="number" placeholder="Your answer"></div>
+		</div>
+
+		<div class="button">
+			<button class="btn" type="submit"  id="send" onclick="message()">Consult</button>
+        </div>
+        <div class="message">
+           <div class="success" id="success">
+               <p>Your details has been successfully submitted.Thanks!</p>
+            </div>
+           <div class="danger" id="danger">
+             <p>must enter all fields</p>
+            </div>
+       </div>
+       <div class="register-btn">
+        
+        <a href="about-us.html" class="btn" style="margin-top:1rem">Back</a>
+    </div>
+	</div>
+    <script src="register.js"></script>
+   
+</body>
+</html>

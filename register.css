@@ -1,0 +1,162 @@
+body{
+	background-color: #ede7f6;
+	font-family: Roboto,Sans-serif;
+}
+.form{
+	height: 1100px;
+	width: 600px;
+	margin: auto;
+}
+.required{
+font-size: 13px;
+color: red;
+}
+.title-div{
+	height: 150px;
+	width: 600px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+	border-top: 8px solid #6703c4;
+	padding: 25px;
+    
+}
+.title-div h1{
+    padding-left: 20%;
+    align-items: center;
+}
+.title-div h2{
+
+    padding-left: 30%;
+    align-items: center;
+}
+.button{
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.button button{
+    width:10%;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2b6777;
+    outline: none;
+    
+    cursor: pointer;
+}
+.message{
+    width:100%;
+    position: relative;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.message .success{
+    font-size: 20px;
+    color: green;
+    position: absolute;
+    padding-left: 30%;
+    animation: buttons .3s linear;
+    display: none;
+}
+.message .danger{
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    animation: buttons .3s linear;
+    display: none;
+}
+@keyframes button{
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.name-div, .college-div, .gmail-div, .mobile-div{
+	height: 150px;
+	width: 650px;
+	background-color: #FDFEFE;
+	margin: 15px;
+	border-radius: 8px;
+}
+.name{
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	font-size: 15px;
+}
+.input-div{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+.input-div input{
+	width: 300px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1.5px solid #DCD7D7;
+	font-size: 15px;
+}
+.btn{
+	height: 36px;
+	width: 100px;
+	background-color: #6703c4;
+	border-radius: 5px;
+	font-size: 14px;
+	letter-spacing: .5px;
+	font-weight: 540;
+	border: none;
+	padding: 10px;
+	position: absolute;
+	margin: 15px;
+	color: white;
+}
+.register-btn{
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+.register-btn .btn{
+   
+    width:10%;
+    padding: 5px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #2b6777;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    
+}
+
+.last-div h2{
+	text-align: center;
+	padding-top: 50px;
+	color: #a2a4a6;
+	font-weight: 200;
+}
+.term{
+	font-size: 12px;
+	padding-left: 65px;
+	padding-top: 5px;
+	position: absolute;
+}
+.never{
+	padding-left: 15px;
+	font-size: 12px;
+	padding-top: 70px;
+	font-weight: 400;
+
+}
